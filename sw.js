@@ -1,9 +1,9 @@
 /* Service worker: offline app shell + runtime font cache */
-const VERSION = 'rpvc-v1';
+const VERSION = 'rpvc-v2';
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
-  './icon.svg', './icon-192.png', './icon-512.png',
-  './icon-maskable-512.png', './apple-touch-icon-180.png'
+  './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png',
+  './assets/icon-maskable-512.png', './assets/apple-touch-icon-180.png'
 ];
 
 self.addEventListener('install', (e) => {
