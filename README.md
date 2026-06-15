@@ -5,7 +5,9 @@
 **[→ Try it live](https://zachtheyek.github.io/prepay_calculator/)**
 
 <p align="center">
-  <img src="assets/example_base.png" alt="retention program value calculator screenshot (base case)" width="820">
+  <img src="assets/example_base.png" alt="Calculator example" width="820">
+  <br>
+  <em>Calculator example.</em>
 </p>
 
 ## What it does
@@ -39,15 +41,8 @@ A hair salon runs a "pre top-up" promotion with three tiers:
   <img src="assets/salon_tiers.jpeg" alt="salon promotion tiers example" width="820">
 </p>
 
-Suppose I spend roughly \$66 a visit, about once a week — call it ~\$287/month. Holding that spend fixed and running each tier through the calculator:
+Suppose you spend roughly \$66 a visit, about once a week — call it ~\$287/month. Holding that spend fixed and running each tier through the calculator:
 
-<!---->
-<!-- | Tier | Top up (X) | Free credit (Y) | Bonus | Effective yield | Locked up  | Net value today @ 7% | -->
-<!-- | ---- | ---------- | --------------- | ----- | --------------- | ---------- | -------------------- | -->
-<!-- | A    | RM 600     | RM 100          | 17%   | **1,237%**      | ~3 months  | +RM 97               | -->
-<!-- | B    | RM 1,000   | RM 200          | 20%   | **321%**        | ~5 months  | +RM 189              | -->
-<!-- | C    | RM 2,000   | RM 600          | 30%   | **129%**        | ~10 months | +RM 542              | -->
-<!---->
 <table align="center">
   <tr>
     <td><img src="assets/salon_example_1.png" width="250"></td>
@@ -56,7 +51,7 @@ Suppose I spend roughly \$66 a visit, about once a week — call it ~\$287/month
   </tr>
   <tr>
     <td colspan="3" align="center">
-      <em>Figure 1. Comparison of the three promotion tier structures.</em>
+      <em>Comparison of the three promotion tier structures. (left) 17% bonus, 1,237% effective yield, ~3 months lockup period, +$97 net value today. (center) 20% bonus, 321% effective yield, ~5 months lockup period, +$189 net value today. (right) 30% bonus, 129% effective yield, ~10 months lockup period, +$542 net value today.</em>
     </td>
   </tr>
 </table>
