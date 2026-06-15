@@ -5,9 +5,9 @@
 **[→ Try it live](https://zachtheyek.github.io/prepay_calculator/)**
 
 <p align="center">
-  <img src="assets/example_base.png" alt="Calculator example" width="820">
+  <img src="assets/example_base.png" alt="Basic example of the calculator in action." width="820">
   <br>
-  <em>Calculator example.</em>
+  <em>Basic example of the calculator in action.</em>
 </p>
 
 ## What it does
@@ -56,21 +56,21 @@ Suppose you spend roughly \$66 a visit, about once a week — call it ~\$287/mon
   </tr>
 </table>
 
-### Step 1 — Prepay, or invest the cash instead?
+### Question 1 — Prepay, or invest the cash instead?
 
 The effective yield (break-even return) is the annual return the prepaid money effectively earns. Prepay only if you _can't_ beat that return in the market; otherwise keep the cash invested and pay as you go. My expected after-tax market return is ~7%, and **every tier's yield dwarfs it** — 129% even at worst. So for money I'm going to spend at this salon anyway, prepaying beats investing at all three tiers; parking my haircut budget in an index fund and paying out of pocket would leave money on the table.
 
-### Step 2 — Which tier is the best value?
+### Question 2 — Which tier is the best value?
 
 This is where two different senses of "value" pull apart:
 
-- **Discount per dollar committed** (the bonus) _rises_ with tier size: 17% → 20% → 30%. The RM 2,000 tier hands back the most free credit per dollar and saves the most in absolute terms — +\$542 in today's money, the largest of the three. Even after annualizing for the fact that the smaller tiers cycle faster (you re-top up more often), it still comes out ahead: roughly \$700/year for tier C versus ~\$480/year for tier A.
+- **Discount per dollar committed** (the bonus) _rises_ with tier size: 17% → 20% → 30%. The \$2,000 tier hands back the most free credit per dollar and saves the most in absolute terms — +\$542 in today's money, the largest of the three. Even after annualizing for the fact that the smaller tiers cycle faster (you re-top up more often), it still comes out ahead: roughly \$700/year for tier C versus ~\$480/year for tier A.
 - **Return per dollar-year locked up** (the effective yield) _falls_ with tier size: 1,237% → 321% → 129%.
-  They diverge because the bigger tiers buy a deeper discount but make you _wait longer_ to realize it — \$2,000 takes ~10 months to draw down versus ~3 months for \$600 — so the annualized return on that locked capital is lower even though the headline discount is higher. (This is the `r* ≈ 2d / T` relationship above in action: a larger discount `d` on top, but a much longer lock-up `T` underneath, and the lock-up wins. The formula is only a rough, small-rate approximation — it badly understates the yield when the balance is spent in a month or two, which is why tier A's true yield is in the thousands of percent — but the _direction_ it predicts is exactly what the calculator confirms.)
+  They diverge because the bigger tiers buy a deeper discount but make you _wait longer_ to realize it — \$2,000 takes ~10 months to draw down versus ~3 months for \$600 — so the annualized return on that locked capital is lower even though the headline discount is higher. (This is the aforementioned `r* ≈ 2d / T` relationship in action: a larger discount `d` on top, but a much longer lock-up `T` underneath, and the lock-up wins. The formula is only a rough, small-rate approximation — it badly understates the yield when the balance is spent in a month or two, which is why tier A's true yield is in the thousands of percent — but the _direction_ it predicts is exactly what the calculator confirms.)
 
 So which tier wins? Because **all three clear my 7% hurdle by a wide margin, returns aren't the binding constraint — risk is.** Each step up captures a bigger discount but commits more cash to a single small business for longer, and a prepaid balance is an unsecured claim: if the salon closes, the unspent balance is gone. The effective yield is a _pre-risk_ number — 129% looks unbeatable next to 7%, but it doesn't price the chance of losing the balance outright.
 
-The practical rule: **pick the largest tier whose deposit and lock-up you're comfortable having tied up in one shop.** If \$2,000 for ~10 months is more single-merchant exposure than you want, step down to \$1,000 (\~5 months) or \$600 (\~3 months) — you give up some savings, but every tier still beats investing. Effective yield earns its keep in the opposite case: a tier that locks a large deposit up for _years_ in exchange for a token bonus would fall _below_ your market return, and the calculator would correctly tell you to walk away and invest instead. That's the scenario it's built to catch — and the reason it leads with the break-even number.
+The practical rule: **pick the largest discount whose deposit and lock-up you're comfortable having tied up in one shop.** If \$2,000 for ~10 months is more single-merchant exposure than you want, step down to \$1,000 (\~5 months) or \$600 (\~3 months) — you give up some savings, but every tier still beats investing. Effective yield earns its keep in the opposite case: a tier that locks a large deposit up for _years_ in exchange for a token bonus would fall _below_ your market return, and the calculator would correctly tell you to walk away and invest instead. That's the scenario it's built to catch — and the reason it leads with the break-even number.
 
 ## Features
 
